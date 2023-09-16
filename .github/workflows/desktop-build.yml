@@ -4,17 +4,7 @@ on:
 workflow_dispatch:
     branches:
       - master
-    paths-ignore:
-      - '**.md'
-      - 'webclient/**'
-      - '.github/workflows/web-*.yml'
-      - '.github/workflows/translations.yml'
   pull_request:
-    paths-ignore:
-      - '**.md'
-      - 'webclient/**'
-      - '.github/workflows/web-*.yml'
-      - '.github/workflows/translations.yml'
 
 jobs:
   configure:
